@@ -1,0 +1,22 @@
+@import "~bootstrap";
+
+.custom-container {
+    padding-top: 2rem;
+}
+
+.form-group {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: left;
+
+    .error {
+        color: rgb(180, 0, 0);
+    }
+
+}
+
+.nav-item:hover {
+    background-color: rgb(0, 0, 0, 0.15);
+    transition: all 0.3 ease-in-out;
+}
